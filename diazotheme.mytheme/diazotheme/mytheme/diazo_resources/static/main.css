@@ -10,7 +10,7 @@ body {
 
 @font-face {
   font-family: 'Gothic';
-  src: url('./fonts/11058.ttf') format('truetype');
+  src: url('./fonts/11059.ttf') format('truetype');
 }
 
 #navbar-top button.navbar-toggle {
@@ -105,9 +105,9 @@ body {
 
 #local-nav .nav > li > a {
   font-family: "Gothic";
-  text-transform: uppercase;
+  font-variant: small-caps;
   color: #104674;
-  font-size: 1.2em;
+  font-size: 1.4em;
   padding: 10px 35px;
 }
 
@@ -143,11 +143,11 @@ body {
 
 .box-stub2 h4 {
   font-family: "Elante";
-  font-size: 1.5em;
+  font-variant: small-caps;
+  font-size: 2em;
   margin: 0;
   padding: 8px;
   color: #61737f;
-  text-transform: uppercase;
 }
 
 .underline {
@@ -156,14 +156,15 @@ body {
 
 .box-stub h4 {
   font-family: "Elante";
-  font-size: 1.5em;
+  font-size: 2em;
+  font-variant: small-caps;
   text-align: center;
   margin: 0;
   padding: 8px;
   color: #61737f;
   border-top: 1px solid #9aa7b0;
   border-bottom: 1px solid #9aa7b0;
-  text-transform: uppercase;
+
 }
 
 .trt-footer {
