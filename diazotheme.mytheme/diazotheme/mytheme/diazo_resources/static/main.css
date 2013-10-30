@@ -1,0 +1,199 @@
+/* Stylesheet for the 'ICustomTheme' Plone browser layer */
+
+body {
+}
+
+#navbar-top button.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 1px 2px;
+  margin-top: 6px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+#navbar-top.navbar {
+  min-height: 30px;
+}
+
+#navbar-top .navbar-brand {
+  padding: 4px;
+}
+
+#navbar-top .navbar-nav > li > a {
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+#navbar-top .btn {
+  padding: 1px 6px;
+}
+
+#navbar-top .navbar-btn {
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+
+#brand-bar h1 {
+  color: red;
+  font-size: 10vw;
+  font-weight: bold;
+}
+
+#brand-bar h4 {
+  font-size: 2.5vw;
+  color: #fff;
+}
+
+#brand-bar .container {
+  min-height: 150px;
+  background: url(images/banner.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.brand {
+  float: left;
+  margin-top: 0px;
+}
+
+.form-wrapper {
+  margin-top: 190px;
+  /*height: 340px;
+  line-height: 340px;*/
+}
+
+.search-bar .btn {
+  margin-top: 10px;
+}
+
+#local-nav .nav > li > a {
+  font-size: 1.5em;
+  padding: 10px 35px;
+}
+
+#local-nav .navbar {
+  min-height: 0;
+  filter: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+
+#local-nav .navbar-default {
+  background: none;
+}
+
+#content {
+  margin-top: -10px;
+  padding-top: 40px;
+}
+
+#content.container {
+  border-top: 7px solid #6289b2;
+}
+
+#news p {
+  color: #407dbe;
+  padding-top: 10px;
+}
+
+
+
+.box-stub2 h4 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 8px;
+  color: #61737f;
+
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: 1px solid #9aa7b0;
+}
+
+.box-stub h4 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  padding: 8px;
+  color: #61737f;
+  border-top: 1px solid #9aa7b0;
+  border-bottom: 1px solid #9aa7b0;
+  text-transform: uppercase;
+}
+
+.trt-footer {
+  background-color: #6c9ccc;
+  padding-top: 40px;
+  margin-top: 150px;
+  color: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+
+.trt-footer a {
+  color: #fff;
+}
+
+.trt-footer .map {
+  margin-top: 20px;
+  margin-left: 20px
+}
+
+.event-stub {
+  height: 200px;
+  background-color: #ccc;
+}
+
+.page-bottom {
+  margin-top: 50px;
+  padding-top: 10px;
+  bottom: 0;
+  border-top: 10px solid white;
+  height: 100%;
+  width: 100%;
+  background-color: #626e7a;
+}
+
+
+@media (max-width: 768px) {
+  .form-wrapper { margin-top:0; }
+  #brand-bar h4 { color: #666; }
+  #brand-bar { margin-top: 20px; }
+  .brand { margin-top: 0; }
+  #brand-bar .container { background: none; min-height:0; }
+}
+
+.navbar > .container .navbar-brand {
+  margin-left: 0;
+}
+
+#intranet-global-nav .btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#intranet-global-nav .icon-bar {
+  background-color: #CCC;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  margin-bottom: 3px;
+}
+
+.trt-footer i {
+  color: blue;
+  text-align: center;
+  font-size: 5em;
+}
+
+.trt-footer nav {
+  margin-top: -80px;
+}
+
