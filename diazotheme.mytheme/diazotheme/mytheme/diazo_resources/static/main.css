@@ -3,6 +3,16 @@
 body {
 }
 
+@font-face {
+  font-family: 'Elante';
+  src: url('./fonts/ELANTE.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gothic';
+  src: url('./fonts/11058.ttf') format('truetype');
+}
+
 #navbar-top button.navbar-toggle {
   position: relative;
   float: right;
@@ -16,7 +26,24 @@ body {
 }
 
 #navbar-top.navbar {
-  min-height: 30px;
+  min-height: 35px;
+  padding-top: 4px;
+}
+
+.navbar {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#FDFDFD), to(#DBDBDB));
+  background-image: -webkit-linear-gradient(top, #FDFDFD, 0%, #DBDBDB, 100%);
+  background-image: -moz-linear-gradient(top, #FDFDFD 0%, #DBDBDB 100%);
+  background-image: linear-gradient(to bottom, #FDFDFD 0%, #DBDBDB 100%);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffFDFDFD', endColorstr='#ffDBDBDB', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+}
+.navbar-default {
+  background-color: #C4C4C4;
+  border-color: #C2C2C2;
 }
 
 #navbar-top .navbar-brand {
@@ -37,6 +64,11 @@ body {
   margin-bottom: 0;
 }
 
+#brand-bar {
+  margin-top: 30px;
+  height: 230px;
+  margin-bottom: 10px;
+}
 
 #brand-bar h1 {
   color: red;
@@ -50,10 +82,10 @@ body {
 }
 
 #brand-bar .container {
-  min-height: 150px;
-  background: url(images/banner.jpg) no-repeat;
+  min-height: 230px;
+  background: url(images/topo.jpg) no-repeat;
   background-size: cover;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .brand {
@@ -62,7 +94,7 @@ body {
 }
 
 .form-wrapper {
-  margin-top: 190px;
+  margin-top: 150px;
   /*height: 340px;
   line-height: 340px;*/
 }
@@ -72,8 +104,15 @@ body {
 }
 
 #local-nav .nav > li > a {
-  font-size: 1.5em;
+  font-family: "Gothic";
+  text-transform: uppercase;
+  color: #104674;
+  font-size: 1.2em;
   padding: 10px 35px;
+}
+
+#local-nav .nav > li.active > a  {
+  color: #fff;
 }
 
 #local-nav .navbar {
@@ -102,14 +141,12 @@ body {
   padding-top: 10px;
 }
 
-
-
 .box-stub2 h4 {
+  font-family: "Elante";
   font-size: 1.5em;
   margin: 0;
   padding: 8px;
   color: #61737f;
-
   text-transform: uppercase;
 }
 
@@ -118,6 +155,7 @@ body {
 }
 
 .box-stub h4 {
+  font-family: "Elante";
   font-size: 1.5em;
   text-align: center;
   margin: 0;
@@ -164,7 +202,7 @@ body {
 @media (max-width: 768px) {
   .form-wrapper { margin-top:0; }
   #brand-bar h4 { color: #666; }
-  #brand-bar { margin-top: 20px; }
+  #brand-bar { margin-top: 70px; height:30px;}
   .brand { margin-top: 0; }
   #brand-bar .container { background: none; min-height:0; }
 }
@@ -197,3 +235,32 @@ body {
   margin-top: -80px;
 }
 
+.footer-icons {
+  background: url('images/footer-sprites.png') no-repeat;
+  width: 105px;
+  height: 105px;
+}
+
+.icon-escritorio {
+  background-position: 0 0;
+}
+
+.icon-projeto {
+  background-position: -143px 0;
+}
+
+.icon-metodologia {
+  background-position: -286px 0;
+}
+
+.icon-forum {
+  background-position: -573px 0;
+}
+
+.icon-agenda {
+  background-position: -717px 0;
+}
+
+.icon-noticia {
+  background-position: -430px 0;
+}
